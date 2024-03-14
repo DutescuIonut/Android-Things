@@ -11,6 +11,7 @@ The project uses:
 	- 1 breadboard
 	- cables
 https://www.sunfounder.com/products/mega2560-project-starter-kit
+https://docs.arduino.cc/software/ide-v1/tutorials/Windows/
 
 The purpose of the project is to implement a system
 similar to the keycard entry systems used to limit
