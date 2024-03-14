@@ -1,0 +1,35 @@
+The project I will be developing features an Arduino board.
+It will implement the idea of keycard entry systems.
+The project uses: 
+	-  Arduino MEGA 2560
+	- 1 green LED
+	- 1 red LED
+	- 2 magnetic keycards
+	- 1 RFID sensor for keycards
+	- 1 LCD display
+	- 1 matrix keypad
+	- 1 breadboard
+	- cables
+https://www.sunfounder.com/products/mega2560-project-starter-kit
+
+The purpose of the project is to implement a system
+similar to the keycard entry systems used to limit
+access to unauthorized people.
+The flow of the project is as follows:
+We scan the keycard on the RFID sensor. We select an option from the menu
+by using the matrix keypad. The options binded to the keypad are:
+pressing button 1 - add a new keycard to the database, this keycard will provide access in the future
+pressing button 2 - delete the scanned keycard from the database
+pressing button 3 - try to get access ( check if the keycard has or does not have access)
+When choosing option 3 there are 2 scenarios that can occur:
+1. We have access, a green LED lights up and a message is shown on the LCD display
+2. We do not have access, a red LED lights up and a message is shown on the LCD display
+
+As future works, this project can surely be scaled and implemented to work in 
+providing access for authorized people in certain areas. It would need an additional
+internet source in order to connect it to a server and provide access in real-time based
+on the data stored in the server database.
+
+
+	
+		
